@@ -34,7 +34,7 @@ The model uses data from:
 
 ## Qualifying Data
 
-The prediction model uses the following hardcoded qualifying times for the 2025 Japanese GP:
+The prediction model uses the following hardcoded qualifying times for the 2025 Japanese GP. (IMPORTANT NOTE:  Please update the Qualifying data when the data is available):
 
 | Driver | Qualifying Time (s) |
 |--------|---------------------|
