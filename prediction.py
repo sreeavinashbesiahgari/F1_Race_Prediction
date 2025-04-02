@@ -165,12 +165,14 @@ qualifying_2025["PredictedRaceTime (s)"] = predicted_lap_times
 qualifying_2025 = qualifying_2025.sort_values(by="PredictedRaceTime (s)")
 
 # Print final predictions
-print("\n🏁 Predicted 2025 Japanese GP Winner 🏁\n")
-print(qualifying_2025[["Driver", "PredictedRaceTime (s)"]])
+print("\n🏁 Predicted 2025 Japanese GP Winner 🏁")
+winner = qualifying_2025.iloc[0]
+print(f"Driver: {winner['Driver']}, Predicted Race Time: {winner['PredictedRaceTime (s)']:.2f}s")
 
 # Evaluate Model
 y_pred = model.predict(X_test)
-print(f"\n🔍 Model Error (MAE): {mean_absolute_error(y_test, y_pred):.2f} seconds")
+mae = mean_absolute_error(y_test, y_pred)
+print(f"\n🔍 Model Error (MAE): {mae:.2f} seconds")
 
 # Print feature importances
 feature_importance = pd.DataFrame({
