@@ -1,4 +1,4 @@
- # F1 Japanese Grand Prix Prediction
+# F1 Japanese Grand Prix Prediction
 
 This project predicts the winner of the 2025 Japanese Grand Prix using machine learning techniques and historical Formula 1 data.
 
@@ -31,6 +31,31 @@ The model uses data from:
   - Italian GP (Monza)
   - Saudi Arabian GP (Jeddah)
   - Bahrain GP
+
+## Qualifying Data
+
+The prediction model uses the following hardcoded qualifying times for the 2025 Japanese GP:
+
+| Driver | Qualifying Time (s) |
+|--------|---------------------|
+| Max Verstappen | 90.153 |
+| Charles Leclerc | 90.254 |
+| Lando Norris | 90.355 |
+| Carlos Sainz | 90.456 |
+| Lewis Hamilton | 90.557 |
+| George Russell | 90.658 |
+| Oscar Piastri | 90.759 |
+| Fernando Alonso | 90.860 |
+| Lance Stroll | 90.961 |
+| Pierre Gasly | 91.062 |
+| Yuki Tsunoda | 91.163 |
+| Alexander Albon | 91.264 |
+
+These times are based on:
+- Historical performance at Suzuka
+- Recent form
+- Expected car development
+- Track characteristics
 
 ## Requirements
 
