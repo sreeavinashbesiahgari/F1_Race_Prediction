@@ -92,6 +92,17 @@ The script will:
 
 The script provides:
 - Predicted winner for the 2025 Japanese GP
+🏁 Predicted 2025 Japanese GP Winner 🏁
+Driver: Max Verstappen, Predicted Race Time: 96.29s
+
+🔍 Model Error (MAE): 5.08 seconds
+
+📊 Feature Importances:
+              Feature  Importance
+1                Year    0.587789
+2            TyreLife    0.384155
+0  QualifyingTime (s)    0.028056
+
 - Model performance metrics
 - Feature importance analysis
 - Historical race analysis
